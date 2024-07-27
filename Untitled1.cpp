@@ -10,10 +10,12 @@ int main (void)
 	ptr = &v_num;
 	ptr2 = &v_num2;
 	
-	printf ("conteudo da variavel v_num/2 respectivamente : d%\n", v_num , v_num2);
-	printf ("Endereço da variavel v_num/2 respectivamente: %x \n", &v_num, &v_num2);
+	printf ("conteudo da variavel v_num : d%\n", v_num);
+	printf ("conteudo da variavel v_num2 : d%\n", v_num2);
+	printf ("Endereço da variavel v_num : %x \n",&v_num);
+	printf ("Endereço da variavel v_num2 : %x \n",&v_num2);
 	printf ("conteudo da variavel ponteiro ptr: %x", ptr);
-	
+		
 	getch();
 	return(0);
 }
