@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <conio.h>
+#include <stdlib.h>
+
+void * calloc (size_t count, size_t eltSize);
 
 int main (void)
+
 {
 	int v_num = 33;
 	int v_num2 = 25;
